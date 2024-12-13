@@ -8,7 +8,7 @@ int HCF(int a, int b) {
 }
 
 int LCM(int a, int b) {
-    return (a * b) / calculateHCF(a, b);
+    return (a * b) / HCF(a, b);
 }
 
 
