@@ -1,9 +1,17 @@
 --------------------------------------
 
-1. **Modulus functions**
+## 1. Modulus Functions
 
-  + (a+b)%m = (a%m + b%m) %m
-  + (a-b)%m = (a%m - b%m + m) %m
-  + (a*m)%m = (a%m * b%m) %m
-  + (a/b)%m = ((a%m) * (b <sup>m-2</sup>)  (m is prime)
-----------------------------------
+- **Addition**:  
+  `(a + b) % m = (a % m + b % m) % m`
+
+- **Subtraction**:  
+  `(a - b) % m = (a % m - b % m + m) % m`
+
+- **Multiplication**:  
+  `(a * b) % m = (a % m * b % m) % m`
+
+- **Division** (when `m` is prime):  
+  `(a / b) % m = (a % m * b^(m-2)) % m`
+
+--------------------------------------
