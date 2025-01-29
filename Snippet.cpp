@@ -5,8 +5,8 @@ using namespace std;
 
 typedef long long ll;
 typedef vector<long long> vi;
-typedef vector<vector<int>> vvi;
-typedef pair<long long,int> pii ;
+typedef vector<vector<ll>> vvi;
+typedef pair<long long,ll> pii ;
 #define f(i,a,b) for( ll i=a;i<b;i++)
 #define PB push_back
 #define MP make_pair
