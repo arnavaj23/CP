@@ -1,7 +1,7 @@
 vi vis;
 vvi graph;
 void dfs(ll vertex){
-
+    vis[vertex]=1;
     // operation before entering vertex;
     for(auto child:graph[vertex]){
 
